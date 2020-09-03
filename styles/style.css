@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    background-color: gray;
+}
+
+header {
+    border-bottom: 5px solid white;
+    background-color: rgb(53, 51, 51);
+}
+
+footer {
+    display: flex;
+    border-top: 5px solid white;
+    background-color: rgb(53, 51, 51);
+    padding: 5px;
+    margin: 0px;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin: 0px;
+}
+
+.icon {
+    position: absolute;
+    top: 8px;
+    margin-left: 30px;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.container {
+    position: relative;
+    flex: 1 400px;
+    padding: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.container:hover .overlay {
+    opacity: 0.6;
+}
+
+.text {
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.buyparts {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.1em;
+    color: white
+}
+
+.ftext {
+    font-size: 1.2em;
+    color: white;
+}
+
+.ftitle {
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 45px;
+}
+
+.logocontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    word-wrap: normal;
+}
+
+.linkscontainer{
+    max-width: 150px;
+}
+
+.fcontainer {
+    position: relative;
+    flex: 1 400px;
+    padding: 20px;
+}
